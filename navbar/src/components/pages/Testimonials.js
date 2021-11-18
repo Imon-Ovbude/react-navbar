@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Testimonials = () => {
-  return <div>Try For Free</div>;
+  return <div>Testimonials</div>;
 };
 
 export default Testimonials;

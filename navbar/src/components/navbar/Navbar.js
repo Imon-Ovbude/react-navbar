@@ -1,6 +1,8 @@
 import React from 'react';
 import { MenuList } from './MenuList';
 
+import './Navbar.css';
+
 const Navbar = () => {
   const menuList = MenuList.map(({ title, url }, index) => {
     return (
