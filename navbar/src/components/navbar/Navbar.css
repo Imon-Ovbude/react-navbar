@@ -12,6 +12,20 @@ nav {
   display: none;
 }
 
+.fas {
+  cursor: pointer;
+}
+
+.menu-icon .fa-times {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-icon .fa-bars {
+  transform: rotate(-360deg);
+  transition: all 0.5s ease-in-out;
+}
+
 .logo {
   font-weight: 600;
   font-size: 25px;
@@ -78,6 +92,7 @@ nav {
     padding: 20px;
     right: 0;
     top: 64px;
+    transition: all 1s ease-in-out;
   }
 
   .menu-list li {
@@ -95,5 +110,10 @@ nav {
     width: 100px;
     display: block;
     margin: auto;
+  }
+
+  .menu-list.close {
+    right: -100%;
+    transition: all 1s ease-in-out;
   }
 }
